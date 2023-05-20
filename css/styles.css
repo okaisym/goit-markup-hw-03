@@ -1,0 +1,339 @@
+:root {
+    --text-title: #2E2F42;
+    --page-text: #434455;
+    --function-color: #4D5AE5;
+    --btn-text: #FFFFFF;
+    --page-text-light: #F4F4FD;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--btn-text);
+}
+
+nav {
+    display: flex;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* =================  HEADER  ================== */
+
+.link {
+    text-decoration: none;
+}
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--function-color);
+    margin-right: 76px;
+}
+
+.list {
+    list-style: none;
+}
+
+
+.container {
+    width: 1158px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+
+/* =======================================  HEADER  ======================================== */
+
+/* .header {
+    padding-top: 24px;
+} */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-portfolio {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.web-logo-header {
+    color: var(--text-title);
+}
+
+.header-list {
+    font-family: "Roboto" sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-title);
+    display: flex;
+}
+
+.header-address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--page-text);
+    margin-left: 40px;
+}
+
+.header-address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.header-address-link:focus,
+.header-address-link:hover {
+    color: #404bbf;
+}
+
+.header-link-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-title);
+    margin-right: 40px;
+}
+
+.header-link-item:hover,
+.header-link-item:focus {
+    color: #404bbf;
+}
+
+/* =======================================  HERO  ======================================== */
+
+.hero-container {
+    padding: 188px 316px 292px;
+}
+
+.hero-section {
+    background-color: var(--text-title);
+    max-height: 600px;
+}
+
+.hero-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: var(--text-title);
+    color: var(--btn-text);
+}
+
+
+.btn-hero {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-text);
+    background-color: var(--function-color);
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-text:hover,
+.btn-text:focus {
+    background-color: #404bbf;
+    color: var(--btn-text);
+}
+
+/*  ================ MAIN ================  */
+
+.adv-list {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-right: auto;
+    gap: 24px;
+}
+
+.background {
+    background-color: #F4F4FD;
+}
+
+.list-item {
+    background-color: #FFFFFF;
+}
+
+.text-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-title);
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
+
+.title-portfolio {
+    padding-left: 16px;
+}
+
+.text-portfolio {
+    padding-left: 16px;
+    padding-bottom: 32px;
+}
+
+.text-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--page-text);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--text-title);
+    padding-bottom: 72px;
+}
+
+.do-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
+.do-list-item {
+    border: 1px solid #E7E9FC;
+    max-width: 360px;
+    max-height: 300px;
+    gap: 24px;
+    margin-left: auto;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: auto;
+}
+
+.team-container {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.btn-text-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--function-color);
+    background-color: var(--page-text-light);
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.btn-portfolio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 108px;
+    padding-bottom: 84px;
+    gap: 24px;
+    border-radius: 4px;
+}
+
+.btn-text-portfolio:hover,
+.btn-text-portfolio:focus {
+    color: var(--btn-text);
+    background-color: #404bbf;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: transparent;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 120px;
+}
+
+
+.portfolio-list-item {
+    border: 1px solid #E7E9FC;
+}
+
+.footer-section {
+    background-color: var(--text-title);
+}
+
+.web-logo-footer {
+    color: var(--page-text-light);
+}
+
+.text-description-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--page-text-light);
+    padding-left: auto;
+    max-width: 300px;
+    margin-top: 17.5px;
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
