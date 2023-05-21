@@ -72,10 +72,6 @@ img {
     align-items: center;
 }
 
-.header-portfolio {
-    border-bottom: 1px solid #E7E9FC;
-}
-
 .header-navigation {
     display: flex;
     align-items: center;
@@ -214,7 +210,6 @@ img {
 }
 
 .title-portfolio {
-    padding-left: 16px;
     margin-bottom: 8px;
 }
 
@@ -223,8 +218,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--page-text);
-    padding-left: 16px;
-    padding-bottom: 32px;
 }
 
 .text-description {
