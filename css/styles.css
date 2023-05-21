@@ -12,10 +12,6 @@ body {
     background-color: var(--btn-text);
 }
 
-nav {
-    display: flex;
-}
-
 h1,
 h2,
 h3,
@@ -60,7 +56,7 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .container {
     width: 1158px;
@@ -96,22 +92,16 @@ img {
 }
 
 .header-list {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-title);
     display: flex;
     gap: 40px;
 }
 
 .header-address-link {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--page-text);
-    margin-left: 40px;
 }
 
 .header-address {
@@ -126,10 +116,12 @@ img {
 
 .header-link-item {
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-title);
     padding: 24px 0;
+    display: block;
 }
 
 .header-link-item:hover,
@@ -256,10 +248,7 @@ img {
 }
 
 .do-list-item {
-    border: 1px solid #E7E9FC;
-    width: calc((100% - 48px) / 3) ;
-    gap: 24px;
-    /* padding: 0px, 0px, 32px, 0px; */
+    width: calc((100% - 48px) / 3);
 }
 
 .team-list {
@@ -268,10 +257,6 @@ img {
 }
 
 .team-list-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;                            
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
@@ -280,7 +265,6 @@ img {
 .worker {
     padding: 32px 16px;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .btn-text-portfolio {
@@ -345,6 +329,7 @@ img {
     background-color: var(--text-title);
     padding: 100px 0;
 }
+
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -359,13 +344,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--page-text-light);
-    padding-left: auto;
     max-width: 300px;
-    margin-top: 17.5px;
 }
 
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-}
