@@ -126,13 +126,11 @@ img {
 
 /* =======================================  HERO  ======================================== */
 
-.hero-container {
-    padding: 188px 0;
-}
 
 .hero-section {
     background-color: var(--text-title);
     max-height: 600px;
+    padding: 188px 0;
 }
 
 .hero-text {
@@ -207,11 +205,12 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--text-title);
-}
-
-.title-portfolio {
     margin-bottom: 8px;
 }
+
+/* .title-portfolio {
+    margin-bottom: 8px;
+} */
 
 .text-portfolio {
     font-size: 16px;
@@ -294,9 +293,9 @@ img {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-bottom: 84px;
     gap: 24px;
     border-radius: 4px;
+    margin-bottom: 72px;
 }
 
 .btn-text-portfolio:hover,
