@@ -30,7 +30,7 @@ ul {
     text-decoration: none;
 }
 
-.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -84,7 +84,6 @@ img {
 .header-navigation {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .web-logo-header {
@@ -333,6 +332,13 @@ img {
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--function-color);
 }
 
 .web-logo-footer {
